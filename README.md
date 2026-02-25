@@ -1,4 +1,4 @@
-# 🍌 Nano Banana — Premium Cold-Pressed Juice Showcase
+# Nano Banana — Premium Cold-Pressed Juice Showcase
 
 A visually stunning, Apple-inspired product showcase website for **Nano Banana**, a premium cold-pressed juice brand. Built with **Next.js 14**, featuring scroll-driven bottle animations, smooth flavor transitions, and a modern glassmorphism UI.
 
@@ -9,28 +9,28 @@ A visually stunning, Apple-inspired product showcase website for **Nano Banana**
 
 ---
 
-## 🎬 Demo Video
+## Demo Video
 
 Check out the full website walkthrough here:
 
-▶️ [**Watch the Demo Video**](https://drive.google.com/file/d/1V-nF6MFc5H58Jri1Rzf3SBddlFesPdRf/view?usp=sharing)
+[**Watch the Demo Video**](https://drive.google.com/file/d/1V-nF6MFc5H58Jri1Rzf3SBddlFesPdRf/view?usp=sharing)
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🥭 Cream Mango
+### Cream Mango
 ![Cream Mango](screenshots/mango.png)
 
-### 🍫 Dutch Chocolate
+### Dutch Chocolate
 ![Dutch Chocolate](screenshots/chocolate.png)
 
-### 🍎 Ruby Pomegranate
+### Ruby Pomegranate
 ![Ruby Pomegranate](screenshots/pomegranate.png)
 
 ---
 
-## ✨ Features
+## Features
 
 - **Scrollytelling Bottle Animation** — Frame-by-frame bottle rotation synced to scroll position (Apple-style), rendered on HTML Canvas for high performance
 - **Multi-Flavor Navigation** — Seamlessly switch between 3 juice flavors with smooth gradient background transitions
@@ -41,17 +41,17 @@ Check out the full website walkthrough here:
 
 ---
 
-## 🍹 Products
+## Products
 
 | Flavor | Price | Key Highlights |
 |---|---|---|
-| 🥭 **Cream Mango** | ₹120 / 300ml | Alphonso mangoes, 100% pulp, cold-pressed, HPP treated |
-| 🍫 **Dutch Chocolate** | ₹140 / 300ml | Plant-based, almond milk, dairy-free, 12g protein |
-| 🍎 **Ruby Pomegranate** | ₹150 / 300ml | Heart-healthy, antioxidant-rich, vitamins A/C/K |
+| **Cream Mango** | Rs.120 / 300ml | Alphonso mangoes, 100% pulp, cold-pressed, HPP treated |
+| **Dutch Chocolate** | Rs.140 / 300ml | Plant-based, almond milk, dairy-free, 12g protein |
+| **Ruby Pomegranate** | Rs.150 / 300ml | Heart-healthy, antioxidant-rich, vitamins A/C/K |
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -63,7 +63,7 @@ Check out the full website walkthrough here:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 nano-banana/
@@ -96,7 +96,7 @@ nano-banana/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -127,15 +127,14 @@ nano-banana/
 ### Build for Production
 
 ```bash
-# Generate a static export
 npm run build
 ```
 
-The static site will be generated in the `out/` directory, ready for deployment to any static hosting provider.
+The static site will be generated in the `out/` directory.
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---|---|
@@ -146,7 +145,7 @@ The static site will be generated in the `out/` directory, ready for deployment 
 
 ---
 
-## 🎨 How It Works
+## How It Works
 
 ### Scroll Animation (Scrollytelling)
 
@@ -166,28 +165,7 @@ The hero section uses a **frame-by-frame animation** technique:
 
 ---
 
-## 🌐 Deployment
-
-This project is configured for **static export** (`output: 'export'` in `next.config.js`).
-
-### Deploy to GitHub Pages
-
-The production build uses a base path of `/Products.com`. To deploy:
-
-1. Run `npm run build`
-2. Push the `out/` directory to your GitHub Pages branch
-
-### Deploy to Vercel
-
-Simply connect your repo to [Vercel](https://vercel.com) — it auto-detects Next.js and deploys instantly.
-
-### Deploy to Netlify / Any Static Host
-
-Upload the contents of the `out/` directory to your hosting provider.
-
----
-
-## 🖼 Adding Frame Sequences
+## Adding Frame Sequences
 
 To add a new juice flavor:
 
@@ -198,6 +176,6 @@ To add a new juice flavor:
 
 ---
 
-## 📄 License
+## License
 
-© 2026 Nano Banana Inc. All rights reserved.
+Copyright 2026 Nano Banana Inc. All rights reserved.
